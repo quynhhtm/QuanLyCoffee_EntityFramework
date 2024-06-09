@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="eaa89b0007d74aa4b3704dc0afc86fce" Name="Diagram1">
+        <EntityTypeShape EntityType="DOAN02Model.ChiTietHoaDonCungCap" Width="1.5" PointX="5.25" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DOAN02Model.ChiTietHoaDonThanhToan" Width="1.5" PointX="7.5" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DOAN02Model.HoaDonCungCap" Width="1.5" PointX="3" PointY="14" IsExpanded="true" />
+        <EntityTypeShape EntityType="DOAN02Model.HoaDonThanhToan" Width="1.5" PointX="5.25" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DOAN02Model.KhachHang" Width="1.5" PointX="3" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="DOAN02Model.LichLamViec" Width="1.5" PointX="0.75" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DOAN02Model.LoaiNguyenLieu" Width="1.5" PointX="0.75" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DOAN02Model.NguyenLieu" Width="1.5" PointX="3" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DOAN02Model.NhaCungCap" Width="1.5" PointX="0.75" PointY="14.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DOAN02Model.NhanVien" Width="1.5" PointX="3" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DOAN02Model.NhomThucUong" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DOAN02Model.sysdiagram" Width="1.5" PointX="7.75" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="DOAN02Model.TaiKhoan" Width="1.5" PointX="8.875" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="DOAN02Model.ThucUong" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="DOAN02Model.FK__ChiTietHoa__MaHD__1AD3FDA4" ManuallyRouted="false" />
+        <AssociationConnector Association="DOAN02Model.FK__ChiTietHoa__MaNL__19DFD96B" ManuallyRouted="false" />
+        <AssociationConnector Association="DOAN02Model.FK__ChiTietHo__MaThu__656C112C" ManuallyRouted="false" />
+        <AssociationConnector Association="DOAN02Model.FK__ChiTietHoa__MaHD__66603565" ManuallyRouted="false" />
+        <AssociationConnector Association="DOAN02Model.FK__HoaDonCun__MaNCC__6FE99F9F" ManuallyRouted="false" />
+        <AssociationConnector Association="DOAN02Model.FK__HoaDonThan__MaKH__5441852A" ManuallyRouted="false" />
+        <AssociationConnector Association="DOAN02Model.FK__HoaDonThan__MaNV__5535A963" ManuallyRouted="false" />
+        <AssociationConnector Association="DOAN02Model.FK__NhanVien__MaLLV__5070F446" ManuallyRouted="false" />
+        <AssociationConnector Association="DOAN02Model.FK__NguyenLie__MaLoa__5FB337D6" ManuallyRouted="false" />
+        <AssociationConnector Association="DOAN02Model.FK__ThucUong__MaNhom__628FA481" ManuallyRouted="false" />
+        <AssociationConnector Association="DOAN02Model.FK__TaiKhoan__QuanLy__2EA5EC27" ManuallyRouted="false" />
+        <AssociationConnector Association="DOAN02Model.PhaChe" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
